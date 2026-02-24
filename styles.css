@@ -141,20 +141,19 @@ ul {
 
 .announcement-pill {
     display: inline-block;
-    border: 1.5px solid #334438;
-    border-radius: 100px;
-    padding: 4px 20px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
     color: #334438;
     text-decoration: none;
     font-size: 0.78rem;
     font-weight: 600;
     font-family: var(--font-primary);
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .announcement-pill:hover {
-    background: #334438;
-    color: #CCE561;
+    color: #1a2a1e;
 }
 
 .announcement-close {
@@ -2819,7 +2818,6 @@ ul {
     /* Announcement Bar */
     .announcement-pill {
         font-size: 0.7rem;
-        padding: 3px 14px;
     }
 
     .header.has-announcement {
@@ -3442,8 +3440,6 @@ ul {
 
     .announcement-pill {
         font-size: 0.62rem;
-        padding: 3px 10px;
-        border-width: 1px;
     }
 
     .announcement-close {
